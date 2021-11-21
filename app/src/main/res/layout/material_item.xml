@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#F0F6F6F6"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_margin="4dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/mName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:text="9 March 2020"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat">
+            </TextView>
+
+           <View
+               android:id="@+id/line"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_below="@+id/mName"
+               android:background="#4D000000"
+               ></View>
+            <TextView
+                android:id="@+id/mtBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+               android:layout_below="@+id/line"
+                android:text=""
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat">
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/fileholder"
+                android:layout_below="@+id/mtBody"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/icon_pdf"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/filename"
+                    android:text="Material Pdf"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

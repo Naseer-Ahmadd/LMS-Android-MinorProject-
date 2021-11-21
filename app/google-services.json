@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392352915238",
+    "project_id": "ghs-sms",
+    "storage_bucket": "ghs-sms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392352915238:android:2daefa9454cacb0be12be7",
+        "android_client_info": {
+          "package_name": "com.example.lms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392352915238-bfnumgo20drum165bt2sbnj96m58ak7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnCoHqCpZR8kDD67YvyX035rx7_OJbvgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392352915238-bfnumgo20drum165bt2sbnj96m58ak7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

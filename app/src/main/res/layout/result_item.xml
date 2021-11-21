@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="6dp"
+        app:cardBackgroundColor="#F0F6F6F6"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_margin="4dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/rName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:text="9 March 2020"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat">
+            </TextView>
+            <TextView
+                android:id="@+id/resultPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:text="Percenatge: 68%"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat">
+            </TextView>
+           <View
+               android:id="@+id/line"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_below="@+id/rName"
+               android:background="#3E000000"
+               ></View>
+            <TextView
+                android:id="@+id/resultBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+               android:layout_below="@+id/rName"
+                android:text="Percenatge: 68%"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat">
+            </TextView>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
